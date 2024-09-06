@@ -8,6 +8,62 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="side-bar">
+        <span><img src="../htmlProj1/src/assets/images/odin-lined.png" alt="odin-proj-logo">
+        ODIN</span>
+        <figcaption>Photo by <a href="">Halie West</a> on <a href="">Unsplash</a></figcaption>
+    </div>
+    <div class="sign-up">
+        <div class="title">
+            <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</h1>
+            <h1>You <em>know</em> you want to.</h1>
+        </div>
+        <form action="" method="post">
+            <fieldset>
+            <p>Let's do this!</p>
+            <ul>
+                <div class="row1">
+                    <li>
+                            <label for="first_name" > FIRST NAME
+                                <input type="text" name="first_name" id="first_name" required>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="last_name"> LAST NAME
+                                <input type="text" name="last_name" id="last_name" required>
+                            </label>
+                        </li>
+                </div>
+                    <div class="row2">
+                        <li>
+                            <label for="email"> EMAIL
+                                <input type="email" name="email" id="email" required>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="tel_num"> PHONE NUMBER
+                                <input type="tel" name="tel_num" id="tel_num" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            </label>
+                        </li>
+                    </div>
+                    <div class="row3">
+                        <li>
+                            <label for="password">PASSWORD
+                                <input type="password" name="password" id="password" required>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="con_password">CONFIRM PASSWORD
+                                <input type="con_password" name="con_password" id="con_password" required>
+                            </label>
+                        </li>
+                    </div>
+                </ul>
+            </fieldset>
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </form>
+
+</div>
 </body>
 </html>
